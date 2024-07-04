@@ -87,10 +87,6 @@ p{
     margin: 30px 0px;
     border-radius: 15px;
     transition: background 0.1s;
-    /* Tambahkan backdrop-filter dengan nilai blur yang diinginkan */
-    backdrop-filter: blur(5px);
-    /* Atur warna latar belakang agar lebih terlihat */
-    background-color: rgba(255, 0, 0, 0.5); /* Ubah nilai RGBA sesuai kebutuhan */
 }
 
 .btn:hover {
@@ -210,3 +206,40 @@ footer {
     display: block;
 }
 
+.container {
+    padding: 80px 20px 20px 20px; /* Adjust padding to make room for fixed navbar */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item h2 {
+    margin-top: 0;
+    color: #f1f1f1;
+}
+
+.item p {
+    color: #cccccc;
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
